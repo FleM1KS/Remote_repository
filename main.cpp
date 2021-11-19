@@ -2,7 +2,6 @@
 
 int main()
 {
-    printf("Hello wolrd!\n");
-    printf("test!");
+    printf("This is other branch");
 
 }
