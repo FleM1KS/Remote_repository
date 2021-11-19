@@ -2,7 +2,5 @@
 
 int main()
 {
-    printf("Hello wolrd!\n");
-    printf("test!");
-
+    printf("Проектирование калькулятора");
 }
