@@ -12,4 +12,26 @@ int main()
     printf("4. Деление\n");
     int n;
     cin >> n;
+    int a, b;
+    printf("Введите a: ");
+    cin >> a;
+    printf("Введите b: ");
+    cin >> b;
+    if (n == 1) {   
+        int res = a + b;
+        printf("Результат %d", res);
+    }
+    else if (n == 2) {   
+        int res = a - b;
+        printf("Результат %d", res);
+    }
+    else if (n == 3) {   
+        int res = a * b;
+        printf("Результат %d", res);
+    }
+    else {   
+        int res = a / b;
+        printf("Результат %d", res);
+    }
+
 }
